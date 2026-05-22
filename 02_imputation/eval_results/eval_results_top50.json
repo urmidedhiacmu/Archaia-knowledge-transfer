@@ -1,0 +1,4356 @@
+{
+  "summary": {
+    "recovered_material": {
+      "n": 50,
+      "exact_match": 0.84,
+      "fuzzy_token_sort": 0.8933,
+      "fuzzy_partial": 0.9262,
+      "semantic_sim": 0.8982,
+      "top3_match": 0.96
+    },
+    "recovered_object_type": {
+      "n": 50,
+      "exact_match": 0.72,
+      "fuzzy_token_sort": 0.8448,
+      "fuzzy_partial": 0.8974,
+      "semantic_sim": 0.8438,
+      "top3_match": 0.72
+    },
+    "recovered_condition": {
+      "n": 50,
+      "exact_match": 0.18,
+      "fuzzy_token_sort": 0.5368,
+      "fuzzy_partial": 0.6798,
+      "semantic_sim": 0.6513,
+      "top3_match": 0.26
+    },
+    "recovered_period": {
+      "n": 50,
+      "exact_match": 0.48,
+      "fuzzy_token_sort": 0.6886,
+      "fuzzy_partial": 0.7655,
+      "semantic_sim": 0.7408,
+      "top3_match": 0.76
+    },
+    "recovered_description": {
+      "n": 50,
+      "exact_match": 0.0,
+      "fuzzy_token_sort": 0.4482,
+      "fuzzy_partial": 0.5206,
+      "semantic_sim": 0.5726,
+      "bleu": 0.0401
+    }
+  },
+  "results": {
+    "recovered_material": [
+      {
+        "uuid_hex": "0dfe7d8f7cf54e5d90e541c24a31ea95",
+        "label": "5523-27",
+        "item_class": "Object",
+        "project": "Pyla-Koutsopetria Archaeological Project II: Geophysics and Excavation",
+        "gt": "pottery",
+        "pred": "pottery",
+        "top3": [
+          "pottery",
+          "terra cotta",
+          "stone/lithics"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "dc7a01f980bb4723cd082ce4e96996c7",
+        "label": "Batch 5",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "pottery",
+        "pred": "pottery",
+        "top3": [
+          "pottery",
+          "stone/lithics",
+          "other"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "ab413b6e52de4b5c2fae8f0f2546665c",
+        "label": "DT# 5021",
+        "item_class": "Coin",
+        "project": "Domuztepe Excavations",
+        "gt": "Billon",
+        "pred": "Billon",
+        "top3": [
+          "Billon",
+          "Cooper/Bronze",
+          "Silver"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "3f1c25e137ef611795709230b65a865a",
+        "label": "DT# 1962",
+        "item_class": "Object",
+        "project": "Domuztepe Excavations",
+        "gt": "Serpentine",
+        "pred": "Serpentine",
+        "top3": [
+          "Serpentine",
+          "Basalt",
+          "Stone ?"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "540d541211994bf7bfb9319647616153",
+        "label": "B2014.1.42",
+        "item_class": "Object",
+        "project": "Bade Museum",
+        "gt": "Flint",
+        "pred": "Flint",
+        "top3": [
+          "Flint",
+          "Stone (Unidentified)",
+          "Obsidian"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "f6ce4b65706d471b1524e841246839c9",
+        "label": "Batch 11",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "glass",
+        "pred": "glass",
+        "top3": [
+          "glass",
+          "pottery",
+          "stone/lithics"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "46968c87033b43cd968395c50e381811",
+        "label": "Batch 8",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "stone/lithics",
+        "pred": "bone/shell",
+        "top3": [
+          "bone/shell",
+          "pottery",
+          "stone/lithics"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.43478260869565216,
+        "fuzzy_partial": 0.5882352941176471,
+        "semantic_sim": 0.2885,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "fbb4ed0c7aaf4f47d208a07a6159b5f7",
+        "label": "AM662:855",
+        "item_class": "Object",
+        "project": "Mikt\u2019sqaq Angayuk Finds",
+        "gt": "Glass",
+        "pred": "Glass",
+        "top3": [
+          "Glass",
+          "Ceramic",
+          "Crystal"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "61b1dc7b0c504476839af2eafbd2b93c",
+        "label": "97-L-17(548)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Ceramic",
+        "pred": "Limestone",
+        "top3": [
+          "Limestone",
+          "Ceramic",
+          "Stone"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.125,
+        "fuzzy_partial": 0.25,
+        "semantic_sim": 0.4525,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "acf0ebe1d2bf4cbfbcb4b4ced3bc0466",
+        "label": "Obj 9010007103",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "1e85abcc02c24b5d9757f9dfe984d8ae",
+        "label": "Obj 0566000007",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "805b2c856d5e4f229c0b788b00c1a666",
+        "label": "Obj 9007000516",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Other"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "c01fd21e2c664940ac4519733f2acd44",
+        "label": "Obj 0508000005",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "a4b67f6210be450660b28ee212f12d17",
+        "label": "99-CO-1(839)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Stucco",
+        "pred": "Stucco",
+        "top3": [
+          "Stucco",
+          "Plaster",
+          "Limestone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "e6edda056f87488e84e4aed9e690437a",
+        "label": "A040072",
+        "item_class": "Object",
+        "project": "Madaba Plains Project-`Umayri",
+        "gt": "Basalt",
+        "pred": "Basalt",
+        "top3": [
+          "Basalt",
+          "Pumice",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "16b78536f0cc4ae8b94652dae2196f5d",
+        "label": "Obj 0576000019",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "5337815ba6444be40ca82944b2b38d69",
+        "label": "AM662:247",
+        "item_class": "Pottery",
+        "project": "Mikt\u2019sqaq Angayuk Finds",
+        "gt": "Ceramic",
+        "pred": "Ceramic",
+        "top3": [
+          "Ceramic",
+          "Glass",
+          "Iron"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "24374062c7a140f3ac8ad1529b31b8d1",
+        "label": "Obj 2186000012",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "217359ed7faa44ed44ee6f28e5563536",
+        "label": "3-S-2(1412)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Stone",
+        "pred": "Fa\u00efence",
+        "top3": [
+          "Fa\u00efence",
+          "Glass",
+          "Garnet"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.33333333333333337,
+        "fuzzy_partial": 0.5,
+        "semantic_sim": 0.2304,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "860d307d5c4d4785876d7766e41cad55",
+        "label": "AM662:1388",
+        "item_class": "Pottery",
+        "project": "Mikt\u2019sqaq Angayuk Finds",
+        "gt": "Ceramic",
+        "pred": "Ceramic",
+        "top3": [
+          "Ceramic",
+          "Glass",
+          "Bone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "e580488425814c29975ed046aea3b45d",
+        "label": "Obj 2504000506",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "cec4569966c84014930d83901ca8c21f",
+        "label": "Obj 9005051103",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "2e76f71b2dd744a02a453e07cae07601",
+        "label": "Batch 30",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "pottery",
+        "pred": "pottery",
+        "top3": [
+          "pottery",
+          "stone/lithics",
+          "other"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "728ae7f2dcd74850b318efa9d3394371",
+        "label": "Feat. 34063",
+        "item_class": "Feature",
+        "project": "Giza AERA Project",
+        "gt": "Mudbrick",
+        "pred": "Nile clay brick",
+        "top3": [
+          "Nile clay brick",
+          "Mudbrick",
+          "Sandy Mudbrick"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.43478260869565216,
+        "fuzzy_partial": 0.7692307692307692,
+        "semantic_sim": 0.4596,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "99c2a6f56a2f468405933001e1906376",
+        "label": "96-L-58(382)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Ceramic",
+        "pred": "Ceramic",
+        "top3": [
+          "Ceramic",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "d6ca423196d74038d5910962e6fbfc1e",
+        "label": "B2011.1.12",
+        "item_class": "Object",
+        "project": "Bade Museum",
+        "gt": "Shell",
+        "pred": "Shell",
+        "top3": [
+          "Shell",
+          "Bone, Animal",
+          "Stone (Unidentified)"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "1701f105f66a4eb3ad769883f3999609",
+        "label": "Obj 0080000002",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "d5ac697ea6d543ffd919633c1c000c9e",
+        "label": "96-L-32(323)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Ceramic",
+        "pred": "Ceramic",
+        "top3": [
+          "Ceramic",
+          "Limestone",
+          "Stucco"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "4612b70d29fb4a12cc1883c800e51a86",
+        "label": "2-L-2(1055)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Ceramic",
+        "pred": "Ceramic",
+        "top3": [
+          "Ceramic",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "71d7c6d542224f9ea3da717034378690",
+        "label": "B2015.1.107",
+        "item_class": "Object",
+        "project": "Bade Museum",
+        "gt": "Flint",
+        "pred": "Flint",
+        "top3": [
+          "Flint",
+          "Stone (Unidentified)",
+          "Obsidian"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "dde395dc3ee543d3a90ca20a3bab530a",
+        "label": "AM662:1465",
+        "item_class": "Pottery",
+        "project": "Mikt\u2019sqaq Angayuk Finds",
+        "gt": "Ceramic",
+        "pred": "Ceramic",
+        "top3": [
+          "Ceramic",
+          "Glass",
+          "Brick"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "c1dcb7a9dee4491935644279cf4c659d",
+        "label": "Batch 12",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "pottery",
+        "pred": "pottery",
+        "top3": [
+          "pottery",
+          "stone/lithics",
+          "other"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "b808bea030794ccdb475346767246467",
+        "label": "B2015.1.124",
+        "item_class": "Pottery",
+        "project": "Bade Museum",
+        "gt": "Ceramic",
+        "pred": "Ceramic",
+        "top3": [
+          "Ceramic",
+          "Flint",
+          "Stone (Unidentified)"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "5cd6c8d6e10a4782a0b1adf851f34dea",
+        "label": "Item 1072",
+        "item_class": "Object",
+        "project": "The Amulets of the Kerma Culture",
+        "gt": "carnelian",
+        "pred": "carnelian",
+        "top3": [
+          "carnelian",
+          "faience",
+          "quartz"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "2b5fdc726191460c9f5fcf4b4ec1873a",
+        "label": "Obj 9002110314",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Ceramic"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "8c810fcc4651408595a1837a5b842bbb",
+        "label": "5410-24",
+        "item_class": "Object",
+        "project": "Pyla-Koutsopetria Archaeological Project II: Geophysics and Excavation",
+        "gt": "pottery",
+        "pred": "pottery",
+        "top3": [
+          "pottery",
+          "terra cotta",
+          "stone/lithics"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "d6ee6d7886d16976d9eb35d0d4ec7b87",
+        "label": "necklace (ID:59)",
+        "item_class": "Object",
+        "project": "Iraq Heritage Program",
+        "gt": "lapis lazuli, gold, carnelian",
+        "pred": "carnelian, gold",
+        "top3": [
+          "carnelian, gold",
+          "lapis lazuli, gold",
+          "lapis lazuli, gold, carnelian"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.6363636363636364,
+        "fuzzy_partial": 0.75,
+        "semantic_sim": 0.6219,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "d72d714cf15c42ddaa04b8986b0cd317",
+        "label": "A080042",
+        "item_class": "Object",
+        "project": "Madaba Plains Project-`Umayri",
+        "gt": "Sandstone",
+        "pred": "Sandstone",
+        "top3": [
+          "Sandstone",
+          "Basalt",
+          "Limestone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "1ea3545d1bac44be87193815c9004623",
+        "label": "Obj 2258000502",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Other"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "ada6ca04e2d34eee8e44af2f5bef452d",
+        "label": "Obj 0554000021",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "40ad69d2c9784017ab83d85c15ac623e",
+        "label": "Obj 1754000005",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Stone",
+          "Terracotta"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "da9539217b4a43719b31a83fadeba705",
+        "label": "Obj 1673000011",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "7bac224246f945158eadf49333c9a62d",
+        "label": "Obj 2673000001",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "66a51a85553eccffe65bafdd3e91c831",
+        "label": "DT# 2926",
+        "item_class": "Object",
+        "project": "Domuztepe Excavations",
+        "gt": "Field Sample",
+        "pred": "Stone, unidentified",
+        "top3": [
+          "Stone, unidentified",
+          "Field Sample",
+          "Serpentine"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.19354838709677424,
+        "fuzzy_partial": 0.4,
+        "semantic_sim": 0.1536,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "105b24614a544886a7f69dd776469142",
+        "label": "Obj 0089000004",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Other"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "b932f9bc182a4caab173158f5a14d3c0",
+        "label": "5217-12",
+        "item_class": "Object",
+        "project": "Pyla-Koutsopetria Archaeological Project II: Geophysics and Excavation",
+        "gt": "pottery",
+        "pred": "pottery",
+        "top3": [
+          "pottery",
+          "terra cotta",
+          "stone/lithics"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "399c6eee0f8d48ab36909b73ee3732db",
+        "label": "95-S-40(497)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Limestone",
+        "pred": "Limestone",
+        "top3": [
+          "Limestone",
+          "Stone",
+          "Sandstone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "eba93f84bf75474fa8bc64155636249c",
+        "label": "Feat. 32028",
+        "item_class": "Feature",
+        "project": "Giza AERA Project",
+        "gt": "Mudbrick",
+        "pred": "Nile clay brick",
+        "top3": [
+          "Nile clay brick",
+          "Mudbrick",
+          "Sandy Mudbrick"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.43478260869565216,
+        "fuzzy_partial": 0.7692307692307692,
+        "semantic_sim": 0.4596,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "3a6b09d5c23ad28026d28e86db0a9255",
+        "label": "DT# 387",
+        "item_class": "Object",
+        "project": "Domuztepe Excavations",
+        "gt": "Serpentine/Serpetinit",
+        "pred": "Basalt",
+        "top3": [
+          "Basalt",
+          "Stone, unidentified",
+          "Serpentine"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.07407407407407407,
+        "fuzzy_partial": 0.2857142857142857,
+        "semantic_sim": 0.2422,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "8bb500849ddd4112828b52d7ba732502",
+        "label": "Obj 2078000011",
+        "item_class": "Object",
+        "project": "The Eastern Korinthia Archaeological Survey",
+        "gt": "Pottery",
+        "pred": "Pottery",
+        "top3": [
+          "Pottery",
+          "Terracotta",
+          "Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      }
+    ],
+    "recovered_object_type": [
+      {
+        "uuid_hex": "44b0566300c641731719e7be42fcd882",
+        "label": "PC 19710747",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Vessel",
+        "pred": "Vessel",
+        "top3": [
+          "Vessel",
+          "Ceramic (not tile)",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "f66c6b8853534f49eab6f49e7a3c7e43",
+        "label": "PC 20020055",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Fastener::Pin",
+        "pred": "Unclassified / Debris / Misc.",
+        "top3": [
+          "Unclassified / Debris / Misc.",
+          "Fastener::Nail",
+          "Costume, Accessories::Fibula"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.19047619047619047,
+        "fuzzy_partial": 0.3076923076923077,
+        "semantic_sim": 0.1529,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "5c5c94d80ac94f9482e58dc011e27793",
+        "label": "pc 20230132",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Organic (ecofact) || Production Material || Production Waste",
+        "pred": "Organic (ecofact)",
+        "top3": [
+          "Organic (ecofact)",
+          "Unclassified / Debris / Misc.",
+          "Production Material::Worked Bone"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4415584415584416,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.7383,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "67adecb0728d4e3fafa78a63c6d77abe",
+        "label": "PC 20130142",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Production Waste",
+        "pred": "Production Waste",
+        "top3": [
+          "Production Waste",
+          "Unclassified / Debris / Misc.",
+          "Ceramic (not tile)"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "4229ae6af097440362af1098eb67a8bc",
+        "label": "PC 20050097",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Production Waste",
+        "pred": "Production Waste",
+        "top3": [
+          "Production Waste",
+          "Unclassified / Debris / Misc.",
+          "Pyrotech Related::Slag"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "cb1317c1e1d644111061253e3bb32f5d",
+        "label": "PC 19690059",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Akroterion",
+        "pred": "Architectural::Akroterion",
+        "top3": [
+          "Architectural::Akroterion",
+          "Architectural::Antefix",
+          "Architectural::Frieze Plaque"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "d195b11dcb5147ac1fe3a23a7dce963d",
+        "label": "PC 19950079",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Vessel",
+        "pred": "Vessel",
+        "top3": [
+          "Vessel",
+          "Unclassified / Debris / Misc.",
+          "Ceramic (not tile)"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "612e114acaec4af713e01bf0fa70f754",
+        "label": "PC 19860083",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Pan Tile",
+        "pred": "Architectural::Pan Tile",
+        "top3": [
+          "Architectural::Pan Tile",
+          "Architectural::Unspecified / Misc.",
+          "Architectural::Cover Tile"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "a481bbbc08944db00ef27df8f1480d07",
+        "label": "PC 19790052",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Frieze Plaque",
+        "pred": "Architectural::Frieze Plaque",
+        "top3": [
+          "Architectural::Frieze Plaque",
+          "Architectural::Raking Sima",
+          "Architectural::Unspecified / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "a32c6dc0eb0c480684005b45f1bcdc20",
+        "label": "SF t103-2023-5-78",
+        "item_class": "Sample",
+        "project": "Murlo",
+        "gt": "Other",
+        "pred": "Organic (ecofact)",
+        "top3": [
+          "Organic (ecofact)",
+          "Unclassified / Debris / Misc.",
+          "Production Waste"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.18181818181818177,
+        "fuzzy_partial": 0.5714285714285714,
+        "semantic_sim": 0.1348,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "5feccea712494fb99c550618ccb39fb0",
+        "label": "PC 19840201",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Cover Tile",
+        "pred": "Architectural::Cover Tile",
+        "top3": [
+          "Architectural::Cover Tile",
+          "Architectural::Pan Tile",
+          "Architectural::Unspecified / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "6187b483cc8e4680063970fc3776132e",
+        "label": "PC 19710264",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Fastener::Nail",
+        "pred": "Fastener::Nail",
+        "top3": [
+          "Fastener::Nail",
+          "Unclassified / Debris / Misc.",
+          "Production Waste"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "6840eef5970b4604a4e69bec3847544d",
+        "label": "PC 20250041",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Fastener || Fastener::Nail",
+        "pred": "Fastener::Nail",
+        "top3": [
+          "Fastener::Nail",
+          "Unclassified / Debris / Misc.",
+          "Ornament::Inlay / Inset"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.7,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.9565,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "53eb8605f47e495bc09b26c27d30e0c8",
+        "label": "PC 19970139",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Pyrotech Related::Crucible",
+        "pred": "Unclassified / Debris / Misc.",
+        "top3": [
+          "Unclassified / Debris / Misc.",
+          "Production Waste",
+          "Ceramic (not tile)"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.2545454545454545,
+        "fuzzy_partial": 0.30434782608695654,
+        "semantic_sim": 0.1795,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "41bf0960edf54ea2d8603eed31cbd81e",
+        "label": "PC 19680350",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Frieze Plaque",
+        "pred": "Architectural::Frieze Plaque",
+        "top3": [
+          "Architectural::Frieze Plaque",
+          "Architectural::Unspecified / Misc.",
+          "Architectural::Antefix"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "aa5588fe6fe94792c54c124a6b24c109",
+        "label": "PC 20000061",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Vessel",
+        "pred": "Vessel",
+        "top3": [
+          "Vessel",
+          "Ceramic (not tile)",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "cfcd85b24cad401b87d459508ac2537f",
+        "label": "PC 20170001",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Textile Related::Spindle Whorl",
+        "pred": "Textile Related::Spindle Whorl",
+        "top3": [
+          "Textile Related::Spindle Whorl",
+          "Ceramic (not tile)",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "4400fb0d89d1409c9a0b0d89e9d4ba54",
+        "label": "PC 20250120",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Vessel",
+        "pred": "Vessel",
+        "top3": [
+          "Vessel",
+          "Architectural::Frieze Plaque",
+          "Ceramic (not tile)"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "08c745ed21f74c3c24e5a0ea67a59626",
+        "label": "PC 19680395",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Frieze Plaque",
+        "pred": "Architectural::Frieze Plaque",
+        "top3": [
+          "Architectural::Frieze Plaque",
+          "Architectural::Antefix",
+          "Architectural::Akroterion"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "a4e18c06fc6548120b20d884974e41eb",
+        "label": "PC 19870071",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Pyrotech Related::Crucible",
+        "pred": "Production Waste",
+        "top3": [
+          "Production Waste",
+          "Unclassified / Debris / Misc.",
+          "Ceramic (not tile)"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.38095238095238093,
+        "fuzzy_partial": 0.5161290322580645,
+        "semantic_sim": 0.2481,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "97cb485adaa14bec33a232b09f24ed07",
+        "label": "VdM20060040",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Vessel",
+        "pred": "Vessel",
+        "top3": [
+          "Vessel",
+          "Ceramic (not tile)",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "6b580b6d7a6f45823d60ccda6ddd795c",
+        "label": "PC 19800038",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Antefix",
+        "pred": "Architectural::Akroterion",
+        "top3": [
+          "Architectural::Akroterion",
+          "Architectural::Frieze Plaque",
+          "Architectural::Pan Tile"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.8085106382978724,
+        "fuzzy_partial": 0.8421052631578947,
+        "semantic_sim": 0.6277,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "0708189b9a094a60674be068b28b54bd",
+        "label": "PC 19700282",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Textile Related::Rocchetto",
+        "pred": "Textile Related::Rocchetto",
+        "top3": [
+          "Textile Related::Rocchetto",
+          "Textile Related::Spindle Whorl",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "94e123975b344fc56c49d6f3f122c0ca",
+        "label": "PC 19670433",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Frieze Plaque",
+        "pred": "Architectural::Frieze Plaque",
+        "top3": [
+          "Architectural::Frieze Plaque",
+          "Architectural::Raking Sima",
+          "Architectural::Akroterion"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "fc0c759fbe814f8fb8f61a054531deaf",
+        "label": "PC 19980083",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Shaped Object::Coil / Wire",
+        "pred": "Unclassified / Debris / Misc.",
+        "top3": [
+          "Unclassified / Debris / Misc.",
+          "Ornament::Inlay / Inset",
+          "Costume, Accessories::Fibula"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.2909090909090909,
+        "fuzzy_partial": 0.4,
+        "semantic_sim": 0.1391,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "7ea951f3ce9c4fc005758a5decdda6d5",
+        "label": "PC 19730147",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Frieze Plaque",
+        "pred": "Architectural::Frieze Plaque",
+        "top3": [
+          "Architectural::Frieze Plaque",
+          "Architectural::Raking Sima",
+          "Architectural::Unspecified / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "8d49dac16c134c96dc24b8e9dac3072a",
+        "label": "PC 19840051",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Akroterion",
+        "pred": "Architectural::Akroterion",
+        "top3": [
+          "Architectural::Akroterion",
+          "Architectural::Unspecified / Misc.",
+          "Architectural::Frieze Plaque"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "1c1a0b4035be4dab08a2bd05c8e9ccd9",
+        "label": "PC 20050016",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Vessel",
+        "pred": "Vessel",
+        "top3": [
+          "Vessel",
+          "Ceramic (not tile)",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "67a0ce6d8cf04b004907827ccad54681",
+        "label": "VdM20060107",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Vessel",
+        "pred": "Vessel",
+        "top3": [
+          "Vessel",
+          "Ceramic (not tile)",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "2b3e64412ef34409a74502a8da784340",
+        "label": "PC 20240019",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Textile Related || Textile Related::Spindle Whorl",
+        "pred": "Textile Related::Spindle Whorl",
+        "top3": [
+          "Textile Related::Spindle Whorl",
+          "Textile Related::Rocchetto",
+          "Vessel"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.759493670886076,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.9539,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "9cb32f76967c4b25b587f6bfc62f5b44",
+        "label": "PC 19720241",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Fastener::Nail",
+        "pred": "Fastener::Nail",
+        "top3": [
+          "Fastener::Nail",
+          "Fastener::Tack",
+          "Fastener::Dowel"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "4ac7ae95450844b71d7f16c9291ea528",
+        "label": "PC 19711003",
+        "item_class": "Glass",
+        "project": "Murlo",
+        "gt": "Shaped Object",
+        "pred": "Unclassified / Debris / Misc.",
+        "top3": [
+          "Unclassified / Debris / Misc.",
+          "Production Waste",
+          "Ornament::Inlay / Inset"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.2857142857142857,
+        "fuzzy_partial": 0.3846153846153846,
+        "semantic_sim": 0.2236,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "b29e1df790d14885889647a344b559a2",
+        "label": "PC 19710520",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Antefix",
+        "pred": "Architectural::Antefix",
+        "top3": [
+          "Architectural::Antefix",
+          "Architectural::Lateral Sima",
+          "Architectural::Frieze Plaque"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "bcc9b381c8254a36f107d6c524b1417b",
+        "label": "PC 20020069",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Antefix",
+        "pred": "Architectural::Antefix",
+        "top3": [
+          "Architectural::Antefix",
+          "Architectural::Unspecified / Misc.",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "ddf571d0f8f84b79e412848968161781",
+        "label": "PC 19680728",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Lateral Sima",
+        "pred": "Architectural::Lateral Sima",
+        "top3": [
+          "Architectural::Lateral Sima",
+          "Architectural::Unspecified / Misc.",
+          "Architectural::Akroterion"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "0ebf65526f4748cd906e452b4a1d5e0e",
+        "label": "PC 20000057",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Akroterion",
+        "pred": "Architectural::Pan Tile",
+        "top3": [
+          "Architectural::Pan Tile",
+          "Architectural::Ridge Pole Tile",
+          "Architectural::Cover Tile"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.6666666666666667,
+        "fuzzy_partial": 0.7894736842105263,
+        "semantic_sim": 0.5146,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "998d38f8d3a943bfb9164cbd13dcf4d5",
+        "label": "PC 20120185",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Shaped Object::Ribbon / Strip",
+        "pred": "Unclassified / Debris / Misc.",
+        "top3": [
+          "Unclassified / Debris / Misc.",
+          "Fastener::Nail",
+          "Costume, Accessories::Fibula"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.27586206896551724,
+        "fuzzy_partial": 0.375,
+        "semantic_sim": 0.2094,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "c8594fa98fac4764bc467160433f726f",
+        "label": "PC 20120113",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Vessel",
+        "pred": "Vessel",
+        "top3": [
+          "Vessel",
+          "Ceramic (not tile)",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "7bf01f710ee9464f4e56f42b6569036f",
+        "label": "PC 19990026",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Akroterion",
+        "pred": "Architectural::Akroterion",
+        "top3": [
+          "Architectural::Akroterion",
+          "Architectural::Lateral Sima",
+          "Architectural::Raking Sima"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "1c30a7a08ff3496480eb027dbae33643",
+        "label": "PC 20010097",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Unspecified / Misc.",
+        "pred": "Architectural::Unspecified / Misc.",
+        "top3": [
+          "Architectural::Unspecified / Misc.",
+          "Architectural::Cover Tile",
+          "Architectural::Akroterion"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "66444a265346413dbf8f74753065e3db",
+        "label": "PC 19710846",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Shaped Object::Cylinder / Tube",
+        "pred": "Unclassified / Debris / Misc.",
+        "top3": [
+          "Unclassified / Debris / Misc.",
+          "Production Waste",
+          "Fastener::Nail"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.27118644067796616,
+        "fuzzy_partial": 0.38095238095238093,
+        "semantic_sim": 0.1655,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "d2518d77fa1d4bb1bea7d6707d8839fc",
+        "label": "PC 20240003",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Textile Related::Rocchetto || Textile Related",
+        "pred": "Textile Related::Rocchetto",
+        "top3": [
+          "Textile Related::Rocchetto",
+          "Textile Related::Spindle Whorl",
+          "Vessel"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.7323943661971832,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.9478,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "b99293e5b71044d5884ed360cf128411",
+        "label": "PC 20160068",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Vessel",
+        "pred": "Vessel",
+        "top3": [
+          "Vessel",
+          "Ceramic (not tile)",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "b065c75861944551c0027b85459c87ef",
+        "label": "PC 20020043",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Vessel",
+        "pred": "Vessel",
+        "top3": [
+          "Vessel",
+          "Ceramic (not tile)",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "399c3e0312e2460b5e86e81ac1241708",
+        "label": "PC 19700275",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Antefix",
+        "pred": "Architectural::Antefix",
+        "top3": [
+          "Architectural::Antefix",
+          "Architectural::Frieze Plaque",
+          "Architectural::Akroterion"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "7991211dc859466ff62e0fe9540eaae4",
+        "label": "PC 20090005",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Unclassified / Debris / Misc.",
+        "pred": "Unclassified / Debris / Misc.",
+        "top3": [
+          "Unclassified / Debris / Misc.",
+          "Production Waste",
+          "Production Material::Worked Stone"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "80bbf846e87646ebfd08e153d552ad14",
+        "label": "PC 19870036",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Textile Related::Spindle Whorl",
+        "pred": "Textile Related::Spindle Whorl",
+        "top3": [
+          "Textile Related::Spindle Whorl",
+          "Textile Related::Rocchetto",
+          "Unclassified / Debris / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "3842c8a5d32e4a7823bbac8008eacd44",
+        "label": "PC 19930034",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Costume, Accessories::Fibula",
+        "pred": "Costume, Accessories::Fibula",
+        "top3": [
+          "Costume, Accessories::Fibula",
+          "Unclassified / Debris / Misc.",
+          "Fastener::Nail"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "ae5fa075308c43c4822953653ddd6441",
+        "label": "PC 19660086",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Frieze Plaque",
+        "pred": "Architectural::Frieze Plaque",
+        "top3": [
+          "Architectural::Frieze Plaque",
+          "Architectural::Akroterion",
+          "Architectural::Raking Sima"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "2f6a5b26d4574b033768a4d61ad81e16",
+        "label": "VdM20060166",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Architectural::Pan Tile",
+        "pred": "Architectural::Pan Tile",
+        "top3": [
+          "Architectural::Pan Tile",
+          "Architectural::Cover Tile",
+          "Architectural::Unspecified / Misc."
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      }
+    ],
+    "recovered_condition": [
+      {
+        "uuid_hex": "a3502933d0da4bd082e50f8e02be05d4",
+        "label": "VdM20155083",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Surfaces are pitted, worn, encrusted. Large inclusions are visible throughout the fabric. Piece is comprised of two fragments joined during conservation. Fresh abrasions on the exterior, including a pick mark, from modern excavation methods.",
+        "pred": "Broken on all sides. Worn.",
+        "top3": [
+          "Broken on all sides. Worn.",
+          "Broken on all sides; worn.",
+          "Broken on all sides; somewhat worn."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.1573033707865169,
+        "fuzzy_partial": 0.43137254901960786,
+        "semantic_sim": 0.2941,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "5efa8536ca864049637192b5f0dae8b7",
+        "label": "PC 19970058",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Broken at both ends. Some of the original bronze is preserved. The surface is somewhat corroded.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are worn and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.291970802919708,
+        "fuzzy_partial": 0.49275362318840576,
+        "semantic_sim": 0.3925,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "d06d7a2465034dab83fdc52d3055b2e3",
+        "label": "PC 19670047",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Worn and chipped at both ends. Thicker in the middle of the shaft.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are worn and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.3738317757009347,
+        "fuzzy_partial": 0.4225352112676056,
+        "semantic_sim": 0.4024,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "a6da5cc956614e2e9aea8d22a9d7aa4e",
+        "label": "A120004",
+        "item_class": "Object",
+        "project": "Madaba Plains Project-`Umayri",
+        "gt": "Poor",
+        "pred": "Poor",
+        "top3": [
+          "Poor",
+          "Fair",
+          "coarse basalt"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "a466bb5c557e456ab876e89f7ecdc481",
+        "label": "PC 19830068",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Restored from two fragments: front and side edges are not preserved; broken off at back and top.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.35036496350364965,
+        "fuzzy_partial": 0.46341463414634143,
+        "semantic_sim": 0.2534,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "c7e5df9ca7d24465548eb257f0526e97",
+        "label": "PC 19670144",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Broken on two sides, slightly worn.",
+        "pred": "Broken on three sides.",
+        "top3": [
+          "Broken on three sides.",
+          "Broken on three sides; worn.",
+          "Broken on three sides; very worn."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.631578947368421,
+        "fuzzy_partial": 0.8292682926829268,
+        "semantic_sim": 0.83,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "244d92799d3a45eb9d9b449377377849",
+        "label": "B2013.1.24",
+        "item_class": "Object",
+        "project": "Bade Museum",
+        "gt": "Good",
+        "pred": "Good",
+        "top3": [
+          "Good",
+          "Fair",
+          "Stable"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "daae1b8f42764a1992fa8275deb2f9b7",
+        "label": "PC 19980136",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Rocchetto has been restored from three fragments. Only a small section about 0.013 m in width is missing. Surface is abraded and slightly pitted.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are worn and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.32258064516129037,
+        "fuzzy_partial": 0.575,
+        "semantic_sim": 0.3195,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "2c877debaca0421f832d261826239569",
+        "label": "B2018.1.107",
+        "item_class": "Pottery",
+        "project": "Bade Museum",
+        "gt": "Fair",
+        "pred": "Fair",
+        "top3": [
+          "Fair",
+          "Stable",
+          "Good"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "f0d5eb693ff4424d96b7eed66e2b120a",
+        "label": "VdM20155073",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Surfaces are worn and encrusted. All ancient breaks.",
+        "pred": "Surfaces are worn and encrusted.",
+        "top3": [
+          "Surfaces are worn and encrusted.",
+          "Surfaces are worn, pitted, and encrusted.",
+          "Broken on all sides; worn."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.7619047619047619,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.6746,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "de908759a8744ef0a89cd0007eaeec7a",
+        "label": "96-S-37(391)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Fair",
+        "pred": "Fair",
+        "top3": [
+          "Fair",
+          "Good",
+          "Poor"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "41bf0960edf54ea2d8603eed31cbd81e",
+        "label": "PC 19680350",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Broken on left side; chipped at lower right corner and two places in center.",
+        "pred": "Broken on all sides; worn.",
+        "top3": [
+          "Broken on all sides; worn.",
+          "Broken on all sides; very worn.",
+          "Broken on all sides; chipped."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.43137254901960786,
+        "fuzzy_partial": 0.7659574468085107,
+        "semantic_sim": 0.6396,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "4c49b9a0dea646f0e3527cdda5a7cb02",
+        "label": "2-P-22(1076)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Poor",
+        "pred": "Fair",
+        "top3": [
+          "Fair",
+          "Poor",
+          "Broken"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.25,
+        "fuzzy_partial": 0.4,
+        "semantic_sim": 0.3115,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "2377a5112600479588c0e9d48a975cb4",
+        "label": "PC 20120163",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Surfaces are highly irregular, pitted, encrusted, porous, and mottled in color due to corrosion and oxidation.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5165562913907285,
+        "fuzzy_partial": 0.6341463414634146,
+        "semantic_sim": 0.716,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "c1b615d0ca0c427eecf37c6071c4882b",
+        "label": "96-L-41(341)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Fair",
+        "pred": "Fair",
+        "top3": [
+          "Fair",
+          "Poor",
+          "Good"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "55440a1e1584468f9a151d0eb2639233",
+        "label": "PC 19680052",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Broken and worn. Upper part of its left side is preserved. crumbly.",
+        "pred": "Broken on all sides; worn.",
+        "top3": [
+          "Broken on all sides; worn.",
+          "Broken on all sides.",
+          "Broken on all sides; somewhat worn."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4946236559139785,
+        "fuzzy_partial": 0.7142857142857143,
+        "semantic_sim": 0.7176,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "fd1b6df987494900c57d723d7d443f5b",
+        "label": "PC 20080141",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Surfaces are worn, pitted, and encrusted. There is chipping along several edges. Conserved from two pieces.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are worn and encrusted.",
+          "Broken on all sides; worn."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5540540540540541,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.8026,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "384b376ede544596d31744b7de657d68",
+        "label": "PC 19710401",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Broken at top and along scar for attachment at side and bottom, chipped.",
+        "pred": "Broken on all sides; worn.",
+        "top3": [
+          "Broken on all sides; worn.",
+          "Broken on all sides.",
+          "Surfaces are worn, pitted, and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.36734693877551017,
+        "fuzzy_partial": 0.5833333333333333,
+        "semantic_sim": 0.5862,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "0c6d627d59e74ebe6feca8e9b2be1c67",
+        "label": "PC 19690180",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "The details are sharp. Object is broken on two of the four sides, preserving the upper right corner of the head.",
+        "pred": "Broken on all sides; worn.",
+        "top3": [
+          "Broken on all sides; worn.",
+          "Broken on all sides; very worn.",
+          "Surfaces are worn, pitted, and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.30434782608695654,
+        "fuzzy_partial": 0.5384615384615384,
+        "semantic_sim": 0.5074,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "7ef75040f5ad4d08830bb860487594e9",
+        "label": "2-S-28(1181)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Fair",
+        "pred": "Fair",
+        "top3": [
+          "Fair",
+          "Poor",
+          "Good"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "46e0c348f3b44071b108c589a71b7c06",
+        "label": "PC 20070155",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "The fragment is worn, pitted, encrusted, and chipped. Two edges are broken and the sides of the preserved rim are chipped due to modern tools.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.36065573770491793,
+        "fuzzy_partial": 0.7,
+        "semantic_sim": 0.5539,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "26c764ac76254cf18c261204e10f2c62",
+        "label": "94-P-30(208)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Satisfactory",
+        "pred": "Satisfactory",
+        "top3": [
+          "Satisfactory",
+          "Good",
+          "Fair"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "3689e7c0bb3042b29a5f018619551140",
+        "label": "B2016.1.81",
+        "item_class": "Object",
+        "project": "Bade Museum",
+        "gt": "Good",
+        "pred": "Good",
+        "top3": [
+          "Good",
+          "Stable",
+          "Fair"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "11e770cd99884a157204f21767ea6cc0",
+        "label": "PC 19790086",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Broken off on three sides, preserves one finished edge. Surface is pitted.",
+        "pred": "Broken on all sides; worn.",
+        "top3": [
+          "Broken on all sides; worn.",
+          "Broken on all sides; somewhat worn.",
+          "Broken on three sides; worn."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.38,
+        "fuzzy_partial": 0.6274509803921569,
+        "semantic_sim": 0.4717,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "69862641f2744a1c9848c29615876945",
+        "label": "PC 20070006",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "All surfaces are worn, abraded, pitted, and encrusted.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are worn and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.7578947368421054,
+        "fuzzy_partial": 0.7804878048780488,
+        "semantic_sim": 0.8615,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "21d91d860bb54cfd5da9d439a51e7610",
+        "label": "97-P-15(660)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Fair",
+        "pred": "Broken",
+        "top3": [
+          "Broken",
+          "Fragments",
+          "Worn"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.19999999999999996,
+        "fuzzy_partial": 0.33333333333333337,
+        "semantic_sim": 0.1877,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "e481f53e2ced463495f91c97fdeae3c5",
+        "label": "PC 20010001",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "The rocchetto is very worn with pitting and scratching. There are also several large chips missing from the body of the rocchetto and one head.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.30434782608695654,
+        "fuzzy_partial": 0.5365853658536586,
+        "semantic_sim": 0.4283,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "486c55caa13548306e36aa3fc0a9a493",
+        "label": "PC 19970042",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Broken on three sides. Preserves one finished edge and two finished surfaces. Two deep grooves appear on the back. The surface is extremely worn with very little detail appearing and the definition of the strigils is almost worn away.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.21818181818181814,
+        "fuzzy_partial": 0.5609756097560976,
+        "semantic_sim": 0.5176,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "455ff6d9de9f4cdac6fdfcabddd4a541",
+        "label": "PC 19970183",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Profile has been restored from several fragments varying in size. Bowl is worn and pitted both on the interior and exterior of the vessel.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.3240223463687151,
+        "fuzzy_partial": 0.4878048780487805,
+        "semantic_sim": 0.4767,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "9a4b08c896684b3b843bf18f9364e44b",
+        "label": "VdM20165142",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Fragment is reconstructed from 9 fragments. The vessel is encrusted, pitted, and worn.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are worn and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4881889763779527,
+        "fuzzy_partial": 0.5846153846153845,
+        "semantic_sim": 0.5367,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "e9d3eed9fddf48212a9d8a2e1168447e",
+        "label": "PC 20080092",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Surfaces are worn, abraded, pitted, and encrusted. Discoloration due to oxidation and corrosion.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are worn and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5985401459854014,
+        "fuzzy_partial": 0.7804878048780488,
+        "semantic_sim": 0.8209,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "65c889aea5554c361ee0b645749e4c59",
+        "label": "PC 19980154",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Fragments are broken unevenly on all sides. The surfaces are worn and pitted with visible inclusions. The main fragment is a join of four individual shards.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.31472081218274117,
+        "fuzzy_partial": 0.6585365853658536,
+        "semantic_sim": 0.5243,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "dd29d473493a4e4b9e82544406239670",
+        "label": "B2018.1.120",
+        "item_class": "Pottery",
+        "project": "Bade Museum",
+        "gt": "Fair",
+        "pred": "Fair",
+        "top3": [
+          "Fair",
+          "Stable",
+          "Poor"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "7cd3d9029fc14a0e4d8dbe909b5b5711",
+        "label": "PC 20070214",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "All surfaces are mottled and abraded due to oxidation and corrosion.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are worn and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4403669724770643,
+        "fuzzy_partial": 0.6493506493506493,
+        "semantic_sim": 0.5657,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "4725bf3fa52b4ccb7d194044d4c265e2",
+        "label": "PC 19920082",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Fragment preserves portion of tile and flange. Surfaces are worn and exhibit a mottled coloring due to burning or uneven firing.",
+        "pred": "Broken on all sides; worn.",
+        "top3": [
+          "Broken on all sides; worn.",
+          "Broken on all sides.",
+          "Surfaces are worn, pitted, and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.24675324675324675,
+        "fuzzy_partial": 0.4615384615384615,
+        "semantic_sim": 0.2881,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "50f543907a9646eca4eaef76da0db152",
+        "label": "99-S-21(847)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Fair",
+        "pred": "Poor",
+        "top3": [
+          "Poor",
+          "Worn",
+          "Fragments"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.25,
+        "fuzzy_partial": 0.4,
+        "semantic_sim": 0.3115,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "12c8c69c7482464e029618e55471e795",
+        "label": "PC 20070028",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "All surfaces are heavily worn, encrusted, pitted, and chipped. Numerous dark and light inclusions are visible throughout the fabric.",
+        "pred": "Surfaces are worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.7192982456140351,
+        "fuzzy_partial": 0.7604166666666665,
+        "semantic_sim": 0.909,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "d84197a989da4a13947ffbef87a6c3b6",
+        "label": "PC 20120096",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Surfaces are worn, scratched, pitted, and encrusted.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are worn and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.8817204301075269,
+        "fuzzy_partial": 0.7777777777777779,
+        "semantic_sim": 0.9358,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "c8594fa98fac4764bc467160433f726f",
+        "label": "PC 20120113",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Surfaces are worn, pitted, scratched, and encrusted.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are worn and encrusted.",
+          "Broken on all sides; worn."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.8817204301075269,
+        "fuzzy_partial": 0.8311688311688311,
+        "semantic_sim": 0.9523,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "f4b64391e2ff4cd675f20f0a18f941c6",
+        "label": "PC 19710509",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Broken across bottom and back sides; very encrusted.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5591397849462365,
+        "fuzzy_partial": 0.5373134328358209,
+        "semantic_sim": 0.3981,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "9f1a557d92b6491aa665baf2a6a8d4ab",
+        "label": "PC 20090241",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Surfaces are heavily worn, scratched, pitted, and encrusted; large inclusions visible throughout the fabric. Areas of red slip are preserved on the upper surface around the eye and possibly in a small area on the lower surface.",
+        "pred": "Surfaces are worn, pitted, and encrusted.",
+        "top3": [
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.30597014925373134,
+        "fuzzy_partial": 0.6829268292682926,
+        "semantic_sim": 0.6213,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "37070ae82b114c2fa402544937588439",
+        "label": "B2015.1.149",
+        "item_class": "Pottery",
+        "project": "Bade Museum",
+        "gt": "Good",
+        "pred": "Fair",
+        "top3": [
+          "Fair",
+          "Stable",
+          "Poor"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.0,
+        "fuzzy_partial": 0.0,
+        "semantic_sim": 0.4428,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "740e35c4c5a9432d2a187cf53547ee47",
+        "label": "PC 19690061",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Broken on both ends and down projection in back. Deep surface cracks.",
+        "pred": "Broken off on all sides.",
+        "top3": [
+          "Broken off on all sides.",
+          "Broken on all sides.",
+          "Broken on all sides; worn."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.3870967741935484,
+        "fuzzy_partial": 0.6046511627906976,
+        "semantic_sim": 0.6157,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "20db01662cea4f6dad11673e7ace9afc",
+        "label": "PC 20120082",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "All surfaces are heavily pitted, worn, and encrusted; numerous inclusions are visible throughout the fabric.",
+        "pred": "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+        "top3": [
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric.",
+          "Surfaces are worn, pitted, and encrusted."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.9056603773584907,
+        "fuzzy_partial": 0.9371980676328502,
+        "semantic_sim": 0.9471,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "b3ade283ebb04bd9e4164c2d6146a599",
+        "label": "PC 19680145",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Broken on all sides.",
+        "pred": "Broken on all sides; worn.",
+        "top3": [
+          "Broken on all sides; worn.",
+          "Broken on all sides.",
+          "Broken on all sides; very worn."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.8695652173913043,
+        "fuzzy_partial": 0.9743589743589743,
+        "semantic_sim": 0.8257,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "7c481c3411b543358879785439422994",
+        "label": "B2012.1.79",
+        "item_class": "Object",
+        "project": "Bade Museum",
+        "gt": "Good",
+        "pred": "Stable",
+        "top3": [
+          "Stable",
+          "Good",
+          "Fair"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.0,
+        "fuzzy_partial": 0.0,
+        "semantic_sim": 0.3238,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "bbd2e2eec22d4e719c22e9f6c9dc7f05",
+        "label": "PC 19680564",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Glued from three fragments. Broken on all sides. Smooth inside. Traces of white paint over red slip.",
+        "pred": "Broken on all sides.",
+        "top3": [
+          "Broken on all sides.",
+          "Broken on all sides; worn.",
+          "Broken on all sides; chipped."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.33333333333333337,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.4975,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "a0c5b9574ba14acc9f3ce1ee77d6d72a",
+        "label": "PC 19840173",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Broken off on all sides; surface is worn.",
+        "pred": "Broken on all sides. Worn.",
+        "top3": [
+          "Broken on all sides. Worn.",
+          "Surfaces are worn, pitted, and encrusted.",
+          "Surfaces are heavily worn, pitted, and encrusted; numerous inclusions are visible throughout the fabric."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5970149253731343,
+        "fuzzy_partial": 0.7843137254901962,
+        "semantic_sim": 0.7825,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "02f27e158d984f61a89df47ba03d5ebc",
+        "label": "PC 19680363",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Broken across top and on sides.",
+        "pred": "Broken on all sides.",
+        "top3": [
+          "Broken on all sides.",
+          "Broken on all sides; worn.",
+          "Broken on all sides; chipped."
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.7058823529411764,
+        "fuzzy_partial": 0.6875,
+        "semantic_sim": 0.8786,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "c05c7cc3c48f4e4a9624f0bd6f6b580e",
+        "label": "5-G-3(1706)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Good",
+        "pred": "Fair",
+        "top3": [
+          "Fair",
+          "Good",
+          "Worn"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.0,
+        "fuzzy_partial": 0.0,
+        "semantic_sim": 0.4428,
+        "top3_match": true
+      }
+    ],
+    "recovered_period": [
+      {
+        "uuid_hex": "1f670c54c80349433c8c65dc33b7d7b1",
+        "label": "Batch 31",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Roman, Early",
+        "top3": [
+          "Roman, Early",
+          "Roman, Late",
+          "Ancient Historic"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.6956521739130435,
+        "fuzzy_partial": 0.8,
+        "semantic_sim": 0.8465,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "c6b6c19e3eb8416ace82b27663c4eb23",
+        "label": "Batch 31",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Roman",
+          "Ancient Historic"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "fc5555f1c525469c087b39b99db71123",
+        "label": "Batch 28",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Medieval, Late",
+        "pred": "Ancient Historic",
+        "top3": [
+          "Ancient Historic",
+          "Roman, Late",
+          "Roman"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.19999999999999996,
+        "fuzzy_partial": 0.3076923076923077,
+        "semantic_sim": 0.4803,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "5a84f904ca1c4ee0b5f114a024ac1881",
+        "label": "5716-27",
+        "item_class": "Object",
+        "project": "Pyla-Koutsopetria Archaeological Project II: Geophysics and Excavation",
+        "gt": "Archaic-Hellenistic",
+        "pred": "Classical-Hellenistic",
+        "top3": [
+          "Classical-Hellenistic",
+          "Hellenistic-Roman, Early",
+          "Iron Age"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.75,
+        "fuzzy_partial": 0.8235294117647058,
+        "semantic_sim": 0.8752,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "3f96d2df23b24660bcd433cc9f7f9769",
+        "label": "Umm Qseir-dent-12",
+        "item_class": "Animal Bone",
+        "project": "Northern Mesopotamian Pig Husbandry (Late Neolithic-EBA)",
+        "gt": "Halaf",
+        "pred": "Halaf",
+        "top3": [
+          "Halaf",
+          "Ubaid",
+          "Ninevite V"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "d51aa1184c6e41d07311fb8fbf811b65",
+        "label": "Batch 1",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Ancient Historic",
+        "pred": "Cypro-Geometric",
+        "top3": [
+          "Cypro-Geometric",
+          "Unknown",
+          "Roman"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.32258064516129037,
+        "fuzzy_partial": 0.42105263157894735,
+        "semantic_sim": 0.0864,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "05b6d42f38374a3f8425fff60702abd0",
+        "label": "Record 1754",
+        "item_class": "Pottery",
+        "project": "Differentiating local from nonlocal ceramic production at Iron Age Sardis using NAA",
+        "gt": "Iron Age",
+        "pred": "Iron Age",
+        "top3": [
+          "Iron Age",
+          "Hellenistic",
+          "6th century"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "2ae4d7fcd21545fbea143ee12485c0d8",
+        "label": "Batch 8",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Ancient Historic",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Ancient Historic",
+          "Hellenistic-Early Roman"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.2222222222222222,
+        "fuzzy_partial": 0.2727272727272727,
+        "semantic_sim": 0.4264,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "46968c87033b43cd968395c50e381811",
+        "label": "Batch 8",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Unknown",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Ancient Historic",
+          "Post-Prehistoric"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.2222222222222222,
+        "fuzzy_partial": 0.33333333333333337,
+        "semantic_sim": 0.2475,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "b804b22c8ea94e079ae101828800cb78",
+        "label": "Batch 55 (exp)",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Classical-Hellenistic",
+        "pred": "Classical-Hellenistic",
+        "top3": [
+          "Classical-Hellenistic",
+          "Classical",
+          "Hellenistic-Early Roman"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "0768998ddc974a8dc22c7302fb6c21ab",
+        "label": "Batch 1",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Ancient Historic",
+          "Medieval-Modern"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.625,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.7834,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "2ecee816347456811f503124a5ed0c62",
+        "label": "necklace (ID:46)",
+        "item_class": "Object",
+        "project": "Iraq Heritage Program",
+        "gt": "Early Dynastic",
+        "pred": "Early Dynastic",
+        "top3": [
+          "Early Dynastic",
+          "Early Dynastic III",
+          "Ur III"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "7d2d3f198501464786d7724ff90fc5b4",
+        "label": "4011-37",
+        "item_class": "Object",
+        "project": "Pyla-Koutsopetria Archaeological Project II: Geophysics and Excavation",
+        "gt": "Roman, Late",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Hellenistic-Roman",
+          "Hellenistic-Roman, Early"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "80cd72b5d8df49904f5bff8eea704451",
+        "label": "Batch 18",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Medieval",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Roman",
+          "Ancient Historic"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.21052631578947367,
+        "fuzzy_partial": 0.2222222222222222,
+        "semantic_sim": 0.3674,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "999210be2f234091aa627bd5854b1184",
+        "label": "AIA 1036",
+        "item_class": "Pottery",
+        "project": "LBA-IA Ceramic Compositional Data from Troy",
+        "gt": "Geometric",
+        "pred": "Protogeometric/Geometric",
+        "top3": [
+          "Protogeometric/Geometric",
+          "Geometric",
+          "Late Geometric/Early Archaic?"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5454545454545454,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.5957,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "45c2af9eb8d848ed67375e78fcd133b1",
+        "label": "Cat # A29467",
+        "item_class": "Object",
+        "project": "Balance Pan Weights from Nippur",
+        "gt": "Old Babylonian",
+        "pred": "Ur III",
+        "top3": [
+          "Ur III",
+          "Akkadian",
+          "Old Babylonian levels"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.09999999999999998,
+        "fuzzy_partial": 0.19999999999999996,
+        "semantic_sim": 0.197,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "c82fa39630b343779407677e55e7c734",
+        "label": "Domuztepe-dent-67",
+        "item_class": "Animal Bone",
+        "project": "Northern Mesopotamian Pig Husbandry (Late Neolithic-EBA)",
+        "gt": "Halaf",
+        "pred": "Halaf",
+        "top3": [
+          "Halaf",
+          "Ninevite V",
+          "Late Chalcolithic"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "4c5cb443a8bd48ee99553e1311b8ec93",
+        "label": "5524-1",
+        "item_class": "Object",
+        "project": "Pyla-Koutsopetria Archaeological Project II: Geophysics and Excavation",
+        "gt": "Archaic-Hellenistic",
+        "pred": "Archaic-Hellenistic",
+        "top3": [
+          "Archaic-Hellenistic",
+          "Classical-Hellenistic",
+          "Hellenistic"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "d205ae58ca8149382aaaccfa8df8ba9e",
+        "label": "Cat # 51-6-239",
+        "item_class": "Object",
+        "project": "Balance Pan Weights from Nippur",
+        "gt": "post-Achamaenid",
+        "pred": "Isin-Larsa levels",
+        "top3": [
+          "Isin-Larsa levels",
+          "Isin-Larsa",
+          "UR III levels"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.3125,
+        "fuzzy_partial": 0.3571428571428571,
+        "semantic_sim": 0.1691,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "d123246d30064928d99f1bce354e65e8",
+        "label": "Batch 194 (exp)",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Roman",
+          "Ancient Historic"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.625,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.7834,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "1cb82af5ff2245470bf134c1740e647a",
+        "label": "Batch 20",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Roman",
+          "Roman, Early"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "1b19c712cac047c71047d5088636a0f7",
+        "label": "Batch 505",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Unknown",
+        "pred": "Unknown",
+        "top3": [
+          "Unknown",
+          "Roman",
+          "Roman, Late"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "11cdedb2a303488b9b4f19d97360c965",
+        "label": "7005-13",
+        "item_class": "Object",
+        "project": "Pyla-Koutsopetria Archaeological Project II: Geophysics and Excavation",
+        "gt": "Roman, Late",
+        "pred": "Hellenistic",
+        "top3": [
+          "Hellenistic",
+          "Classical-Hellenistic",
+          "Roman, Late"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.18181818181818177,
+        "fuzzy_partial": 0.23529411764705888,
+        "semantic_sim": 0.2824,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "6ff3dadf34a74c4e647cfb21c489b563",
+        "label": "Batch 21",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Ancient Historic",
+          "Roman, Early"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "4e648ac8af25412d7760d164cc0cba03",
+        "label": "Batch 13",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Ancient Historic",
+        "top3": [
+          "Ancient Historic",
+          "Roman, Late",
+          "Roman"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.2222222222222222,
+        "fuzzy_partial": 0.2727272727272727,
+        "semantic_sim": 0.4264,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "4c3336b107944862929234d66dbc28f1",
+        "label": "Batch 53",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Roman",
+        "top3": [
+          "Roman",
+          "Roman, Late",
+          "Ancient Historic"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.625,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.7834,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "a1e0266362f21aa563d243124ebaf9cc",
+        "label": "wall relief (ID:96)",
+        "item_class": "Sculpture",
+        "project": "Iraq Heritage Program",
+        "gt": "Iron Age",
+        "pred": "Iron Age",
+        "top3": [
+          "Iron Age",
+          "Early Dynastic",
+          "Middle - Late Bronze Age"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "398af6dcd4d849ff99a03b8acdbdb67b",
+        "label": "AIA 1071",
+        "item_class": "Pottery",
+        "project": "LBA-IA Ceramic Compositional Data from Troy",
+        "gt": "Hellenistic 2",
+        "pred": "Hellenistic 1",
+        "top3": [
+          "Hellenistic 1",
+          "Pre-Hellenistic 1",
+          "Archaic"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.923076923076923,
+        "fuzzy_partial": 0.96,
+        "semantic_sim": 0.8959,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "0cc911b0c2c04c2f820b5130153c72e5",
+        "label": "5522-39",
+        "item_class": "Object",
+        "project": "Pyla-Koutsopetria Archaeological Project II: Geophysics and Excavation",
+        "gt": "Hellenistic",
+        "pred": "Hellenistic",
+        "top3": [
+          "Hellenistic",
+          "Classical-Hellenistic",
+          "Hellenistic-Roman"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "c3cdc814b7934f1cce619b552b545322",
+        "label": "Batch 25",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Hellenistic-Early Roman",
+        "pred": "Cypro-Archaic",
+        "top3": [
+          "Cypro-Archaic",
+          "Roman, Late",
+          "Medieval-Modern"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.16666666666666663,
+        "fuzzy_partial": 0.30000000000000004,
+        "semantic_sim": 0.2303,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "6c8a77f958914103b0b7c456a2ec1365",
+        "label": "4004-9",
+        "item_class": "Object",
+        "project": "Pyla-Koutsopetria Archaeological Project II: Geophysics and Excavation",
+        "gt": "Roman, Late",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Roman",
+          "Roman, Early"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "b9d91b2158a74420955f1cb2f1f59d81",
+        "label": "Leilan-dent-12",
+        "item_class": "Animal Bone",
+        "project": "Northern Mesopotamian Pig Husbandry (Late Neolithic-EBA)",
+        "gt": "Late 3rd Mill",
+        "pred": "Ninevite V",
+        "top3": [
+          "Ninevite V",
+          "Late 3rd Mill",
+          "Halaf"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.26086956521739135,
+        "fuzzy_partial": 0.4,
+        "semantic_sim": 0.1292,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "011954910e8d45747150a17e2ae9051c",
+        "label": "Batch 28",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Ancient Historic",
+        "pred": "Roman, Early",
+        "top3": [
+          "Roman, Early",
+          "Roman, Late",
+          "Ancient Historic"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.1428571428571429,
+        "fuzzy_partial": 0.26086956521739135,
+        "semantic_sim": 0.5296,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "ba8594c28717498125b3d67615e8e1e7",
+        "label": "Batch 22",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Archaic-Hellenistic",
+          "Ancient Historic"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "5da62df6dc674b56b44543e1f133cf46",
+        "label": "Batch 15",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Ancient Historic",
+          "Roman"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "d84e4ea8b662951c8edb9da07b6894ce",
+        "label": "necklace (ID:86)",
+        "item_class": "Object",
+        "project": "Iraq Heritage Program",
+        "gt": "Early Dynastic III",
+        "pred": "Early Dynastic III",
+        "top3": [
+          "Early Dynastic III",
+          "Early Dynastic",
+          "Ur III"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "96c545bdce094bcda3091ab99ace9ce4",
+        "label": "AIA 1042",
+        "item_class": "Pottery",
+        "project": "LBA-IA Ceramic Compositional Data from Troy",
+        "gt": "Geometric",
+        "pred": "Geometric",
+        "top3": [
+          "Geometric",
+          "VI",
+          "VIIb2"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "90f092ff4a0643168157a61774c579c7",
+        "label": "Hallan Cemi-dent-19",
+        "item_class": "Animal Bone",
+        "project": "Northern Mesopotamian Pig Husbandry (Late Neolithic-EBA)",
+        "gt": "Epipaleolithic",
+        "pred": "Epipaleolithic",
+        "top3": [
+          "Epipaleolithic",
+          "Halaf",
+          "Pottery Neolithic"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "d6ee6d7886d16976d9eb35d0d4ec7b87",
+        "label": "necklace (ID:59)",
+        "item_class": "Object",
+        "project": "Iraq Heritage Program",
+        "gt": "Early Dynastic",
+        "pred": "Early Dynastic III",
+        "top3": [
+          "Early Dynastic III",
+          "Early Dynastic",
+          "Iron Age"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.875,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.8318,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "7d9be910a44040efa3f341893cc777fd",
+        "label": "4061-25",
+        "item_class": "Object",
+        "project": "Pyla-Koutsopetria Archaeological Project II: Geophysics and Excavation",
+        "gt": "Roman, Early",
+        "pred": "Roman, Early",
+        "top3": [
+          "Roman, Early",
+          "Roman",
+          "Roman, Late"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "ca54b7c56f2643daaab62540df370f50",
+        "label": "Record 1732",
+        "item_class": "Pottery",
+        "project": "Differentiating local from nonlocal ceramic production at Iron Age Sardis using NAA",
+        "gt": "Iron Age",
+        "pred": "Iron Age",
+        "top3": [
+          "Iron Age",
+          "6th century",
+          "Hellenistic"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "c459f053a3d14466659deb5ef0a3676a",
+        "label": "Cat # A29039",
+        "item_class": "Object",
+        "project": "Balance Pan Weights from Nippur",
+        "gt": "Ur III",
+        "pred": "Old Babylonian",
+        "top3": [
+          "Old Babylonian",
+          "Isin-Larsa levels",
+          "Ur III"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.09999999999999998,
+        "fuzzy_partial": 0.19999999999999996,
+        "semantic_sim": 0.197,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "b137f1af1335456684d2d1208256cbb4",
+        "label": "5516-75",
+        "item_class": "Object",
+        "project": "Pyla-Koutsopetria Archaeological Project II: Geophysics and Excavation",
+        "gt": "Classical-Hellenistic",
+        "pred": "Hellenistic",
+        "top3": [
+          "Hellenistic",
+          "Classical-Hellenistic",
+          "Hellenistic-Roman"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.6875,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 0.8901,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "e38cbdcdee8842112fa3ecbd02953f98",
+        "label": "Batch 12",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Ancient Historic",
+          "Roman"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "5be2072ce1004aff2496e371fb8502b2",
+        "label": "Batch 6",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Medieval, Late",
+        "pred": "Roman, Late",
+        "top3": [
+          "Roman, Late",
+          "Roman",
+          "Ancient Historic"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.56,
+        "fuzzy_partial": 0.736842105263158,
+        "semantic_sim": 0.6251,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "fc875145702f4879ba9f9d5585be402b",
+        "label": "Hacinebi-dent-84",
+        "item_class": "Animal Bone",
+        "project": "Northern Mesopotamian Pig Husbandry (Late Neolithic-EBA)",
+        "gt": "Late Chalcolithic",
+        "pred": "Late Chalcolithic",
+        "top3": [
+          "Late Chalcolithic",
+          "Halaf",
+          "Ninevite V"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "e8923c4df2fb4958ae0b92c9ceb2705e",
+        "label": "AIA 1016",
+        "item_class": "Pottery",
+        "project": "LBA-IA Ceramic Compositional Data from Troy",
+        "gt": "VIIb2",
+        "pred": "VIIb2",
+        "top3": [
+          "VIIb2",
+          "VIIb1",
+          "VI late"
+        ],
+        "exact_match": true,
+        "fuzzy_token_sort": 1.0,
+        "fuzzy_partial": 1.0,
+        "semantic_sim": 1.0,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "851a3b72e31547cb420ce76557906be4",
+        "label": "Batch 21",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Ancient Historic",
+        "top3": [
+          "Ancient Historic",
+          "Roman, Late",
+          "Roman, Early"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.2222222222222222,
+        "fuzzy_partial": 0.2727272727272727,
+        "semantic_sim": 0.4264,
+        "top3_match": true
+      },
+      {
+        "uuid_hex": "166f1cd36df54bbbd29e6d234911791d",
+        "label": "Batch 26",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Ancient Historic",
+        "top3": [
+          "Ancient Historic",
+          "Cypro-Archaic",
+          "Post-Prehistoric"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.2222222222222222,
+        "fuzzy_partial": 0.2727272727272727,
+        "semantic_sim": 0.4264,
+        "top3_match": false
+      },
+      {
+        "uuid_hex": "e79cc59c832d4cbe16b0c45fe81823ce",
+        "label": "Batch 6",
+        "item_class": "Sample",
+        "project": "Pyla-Koutsopetria Archaeological Project I: Pedestrian Survey",
+        "gt": "Roman, Late",
+        "pred": "Hellenistic-Early Roman",
+        "top3": [
+          "Hellenistic-Early Roman",
+          "Roman, Late",
+          "Ancient Historic"
+        ],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4117647058823529,
+        "fuzzy_partial": 0.625,
+        "semantic_sim": 0.5072,
+        "top3_match": true
+      }
+    ],
+    "recovered_description": [
+      {
+        "uuid_hex": "bb0ca5fdb8604aadad49726f26ea5eaa",
+        "label": "VdM 19600005",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Black-figure body sherd from a large, closed form, probably an amphora. The decoration has the right edge of the frame of the main field of decoration. There is a small fragment of a draped figure to the left, with the folds of the drapery picked out in incisions. Running next to and behind the figure is a rectangular object that is impossible to pick out. Possibly from the same amphora as VdM 19600002 and VdM 19600003. On its own, the sherd is impossible to date/attribute.",
+        "pred": "Fragment of a black gloss pottery vessel with a triangular shape. The fragment preserves black gloss on one side, with the opposite side showing wear and loss of slip. The edges are slightly curved, and the fragment appears to be from a wheel-made vessel.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4120054570259208,
+        "fuzzy_partial": 0.44676409185803756,
+        "semantic_sim": 0.4698,
+        "bleu": 0.0147
+      },
+      {
+        "uuid_hex": "ee45840fb1e849ad9022c80c643e6c26",
+        "label": "Object 1987_4:12",
+        "item_class": "Object",
+        "project": "3D History for Ukraine: Archaeological Museum of the Taras Shevchenko National University of Kyiv",
+        "gt": "Boat-shaped stone axe with the emphasized rounded poll and a thick wedge-shaped blade. The planned location of the hole placed closer to the poll.",
+        "pred": "Stone object resembling a tool or weapon, possibly an axe or hammer. The object has a roughly boat-like shape with a sharpened edge and a rounded back. There is a deepening for tying located closer to the back, suggesting it may have been used as a tool or weapon. The surface is smooth, and there are no visible ornamentations.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4261603375527427,
+        "fuzzy_partial": 0.48630136986301364,
+        "semantic_sim": 0.5675,
+        "bleu": 0.0234
+      },
+      {
+        "uuid_hex": "d7e234400aa242df362e96af3254555c",
+        "label": "PC 20040056",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "A rocchetto preserves slightly ovoid heads that come to rounded edges before tapering inward to the shaft.",
+        "pred": "An intact rocchetto preserves two slightly concave heads that taper into the shaft. The surface is worn and pitted with some encrustations and inclusions.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.6230769230769231,
+        "fuzzy_partial": 0.6984126984126984,
+        "semantic_sim": 0.8562,
+        "bleu": 0.0301
+      },
+      {
+        "uuid_hex": "70d8be7220044508a437aae6ddb31ece",
+        "label": "PC 20030015",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "An intact spindle whorl preserves a slightly convex truncated conical shape and is pierced with a cylindrical hole through the center. The top displays a circular depression around the hole 0.003 m in width, as does the base, though 0.005 m in width. Bordering the circular depression on the base is a convex band approximately 0.007 m in width divided into four finished inverted trianguar areas alternating with four triangular areas composed of roughly 10 slanted incised lines coming to points at the edge of the base.",
+        "pred": "A spindle whorl with a circular shape and central perforation. The surface displays a pattern of incised chevrons around its circumference. The object is intact with worn and slightly pitted surfaces, and some encrustation is present.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4391534391534392,
+        "fuzzy_partial": 0.4829059829059828,
+        "semantic_sim": 0.7411,
+        "bleu": 0.007
+      },
+      {
+        "uuid_hex": "5718cd086e874ab48505a9d843509561",
+        "label": "SF t104-2023-2-7",
+        "item_class": "Sample",
+        "project": "Murlo",
+        "gt": "Pan Tile Fragment with Siglum",
+        "pred": "Pantile fragment with siglum",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.631578947368421,
+        "fuzzy_partial": 0.8571428571428572,
+        "semantic_sim": 0.8984,
+        "bleu": 0.3097
+      },
+      {
+        "uuid_hex": "b2fa158a45744015b799f443793d19fa",
+        "label": "Feat. 33989",
+        "item_class": "Feature",
+        "project": "Giza AERA Project",
+        "gt": "Big rectangular lime stone threshold ,in the westren north side of silo building complex , in wall",
+        "pred": "Rectangular limestone feature possibly used as a foundation or floor surface. Similar to other features with compact limestone fill, potentially indicating a structural or functional purpose within the site.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.39344262295081966,
+        "fuzzy_partial": 0.5153374233128835,
+        "semantic_sim": 0.428,
+        "bleu": 0.0077
+      },
+      {
+        "uuid_hex": "dc15be84cce14952bb3e07e2637ac8e7",
+        "label": "Sherd D-7-35-2-2",
+        "item_class": "Pottery",
+        "project": "Kenan Tepe",
+        "gt": "21.28.0",
+        "pred": "ribbed shoulder with RB decoration",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.0,
+        "fuzzy_partial": 0.0,
+        "semantic_sim": 0.001,
+        "bleu": 0
+      },
+      {
+        "uuid_hex": "484308c90df84c974f3f1331a6b60510",
+        "label": "PC 19840032",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Rocchetto fragment preserves a domed head and part of the shaft. There is a stamped design covering almost the entire head. At the center is a small stamp of two concentric circles, Around the center circle there are eight stamped triangles, apex facing outward; each is independently stamped forming a burst pattern. There is a small hole drilled through the shaft just above the break off point.",
+        "pred": "Rocchetto fragment preserves a domed head with a chipped surface and a broken shaft. The head has a circular hole near the edge.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.419047619047619,
+        "fuzzy_partial": 0.6728971962616823,
+        "semantic_sim": 0.8524,
+        "bleu": 0.037
+      },
+      {
+        "uuid_hex": "42bbfac38b9844951d1eccee1b51522e",
+        "label": "PC 19820062",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Ridge pole tile fragment with incised design. The design consists of a circle tangential to which is a curved triangular form, concave nearest to the circle and on base, third side convex.",
+        "pred": "Fragment of a ridge pole tile with incised circular patterns. The surface shows traces of dark paint, and the incisions are fragmentary. The piece is broken on all edges and worn, consistent with other architectural elements from the Murlo project.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5137614678899083,
+        "fuzzy_partial": 0.5212765957446808,
+        "semantic_sim": 0.757,
+        "bleu": 0.0392
+      },
+      {
+        "uuid_hex": "1e756b140eb846b51ffdeefd4ade9f97",
+        "label": "DT# 5137",
+        "item_class": "Coin",
+        "project": "Domuztepe Excavations",
+        "gt": "Constantine I OBV: IMP CONSTANTINVS P F AVG, laureatte, draped, cuirassed, bust right REV: SOLI INV-I-CTO COMITI, Sol standing, chlamys across left shoulder, raising right hand, holding glode in left hand, S to left, F to right || Constantine I OBV: IMP CONSTANTINVS P F AVG, laureatte, draped, cuirassed, bust right REV: SOLI INV-I-CTO COMITI, Sol standing, chlamys across left shoulder, raising right hand, holding glode in left hand, R X to left, F to right",
+        "pred": "unknown OBV: [-----] REV: [-----]",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.06896551724137934,
+        "fuzzy_partial": 0.3571428571428571,
+        "semantic_sim": 0.3629,
+        "bleu": 0.0
+      },
+      {
+        "uuid_hex": "7ebba24b5eee4db620679944085f9e7c",
+        "label": "PC 19840198",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Fragment of cut out akroterion preserves two curved finished edges - probably from the body of the volute.",
+        "pred": "The akroterion fragment is reconstructed from two pieces, with a roughly rectangular shape and a coarse surface texture. It appears to have been part of a larger architectural element, possibly with a decorative function.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4036697247706422,
+        "fuzzy_partial": 0.4716981132075472,
+        "semantic_sim": 0.6978,
+        "bleu": 0.0086
+      },
+      {
+        "uuid_hex": "0372d08cf37e443c4e0103955f55bf60",
+        "label": "PC 19860033",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "A triangular ivory inlay. Both sides are flat.",
+        "pred": "A triangular ivory inlay. Both surfaces are badly worn and chipped. The upper surface is slightly convex, while the underside is flat.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5,
+        "fuzzy_partial": 0.8695652173913043,
+        "semantic_sim": 0.8962,
+        "bleu": 0.1759
+      },
+      {
+        "uuid_hex": "5298cacfab3b4cb3960318de78d6f20b",
+        "label": "PC 20120116",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Worked bone fragment preserves roughly half of a disc with central, circular perforation 0.012 m in diameter. The worked edge is slightly beveled, and the narrower face of the disc preserves parallel, circular striations from turning while being worked.",
+        "pred": "Half of a bone disc with a central circular perforation. The surfaces are worn and scratched, with visible cracks and slight encrustation. The mottled color suggests aging and exposure to environmental conditions.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5236051502145922,
+        "fuzzy_partial": 0.5211267605633803,
+        "semantic_sim": 0.6553,
+        "bleu": 0.0347
+      },
+      {
+        "uuid_hex": "a26b1bee937342a59d33c47f412cd7cb",
+        "label": "SF t102-2023-8-39",
+        "item_class": "Sample",
+        "project": "Murlo",
+        "gt": "Incised pottery sherd",
+        "pred": "Incised ceramic sherd",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.7619047619047619,
+        "fuzzy_partial": 0.7619047619047619,
+        "semantic_sim": 0.7729,
+        "bleu": 0.1351
+      },
+      {
+        "uuid_hex": "ba53ea659f464db89624d9e2ed52b001",
+        "label": "PC 20070042",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "A small, disc-shaped fragment of carbonzed wood is preserved with one flat surface and one irregular surface.",
+        "pred": "A carbonized seed fragment, possibly grape, with a dark and friable surface due to burning, is preserved.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5981308411214954,
+        "fuzzy_partial": 0.5384615384615384,
+        "semantic_sim": 0.4683,
+        "bleu": 0.0172
+      },
+      {
+        "uuid_hex": "c291f603a65a4b39bd8cefd4cc316465",
+        "label": "PC 20180015",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "A fine impasto rocchetto head fragment. The central portion of the head is flat with a bevel 0.006 m in length which turns into a convex curve where the fragment transitions from the head to the shaft. The shaft's max. pres. length is 0.021 m.",
+        "pred": "Fragment of a rocchetto preserving a portion of the head and shaft. The surface is worn and encrusted, with visible scratches and chips. The fragment shows an ancient transverse break through the shaft and modern tool marks.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5438972162740899,
+        "fuzzy_partial": 0.5267857142857143,
+        "semantic_sim": 0.7112,
+        "bleu": 0.0781
+      },
+      {
+        "uuid_hex": "0bec6ca3e7c74fa5b809692d222cef79",
+        "label": "PC 20120215",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "A very hard, shiny, irregularly grooved and ridged fragment, possibly runoff from the smelting of iron, is preserved. Surfaces are significantly denser and smoother than iron slag.",
+        "pred": "An amorphous fragment of iron slag is preserved, with irregularly pitted and grooved surfaces, showing signs of corrosion and oxidation.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5696202531645569,
+        "fuzzy_partial": 0.48582995951417,
+        "semantic_sim": 0.785,
+        "bleu": 0.011
+      },
+      {
+        "uuid_hex": "92e1319171f44aa5551c3cdf6776a20f",
+        "label": "PC 19850071",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Pan tile preserves complete width and one finished end.",
+        "pred": "Pan tile restored from numerous fragments, preserving partial width and portions of flanges. The tile is broken off at one end, with visible cracks from restoration. The surface shows no distinct markings or impressions.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.3490909090909091,
+        "fuzzy_partial": 0.5636363636363637,
+        "semantic_sim": 0.7066,
+        "bleu": 0.0173
+      },
+      {
+        "uuid_hex": "a4363758abd442d18863299fb009cb15",
+        "label": "PC 19840026",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Statue fragment has two flat surfaces and curved rounded side edges. There is a design incised with wide grooves on one side. Two lines are parallel to and near each of the curved edges, and they border a zigzag pattern. The other surface is unfinished. Possibly a wing fragment.",
+        "pred": "Fragment of an akroterion with a worn surface, broken off on two ends. The piece is roughly rectangular in shape and tapers slightly, indicating it may have been part of a decorative architectural element.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.47107438016528924,
+        "fuzzy_partial": 0.4634760705289672,
+        "semantic_sim": 0.5942,
+        "bleu": 0.0063
+      },
+      {
+        "uuid_hex": "52d53a74af5b47e284cddd754054cc50",
+        "label": "PC 20230146",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Terracotta cover tile fragment A preserves full width. It also preserves a convex exterior finished face and a concave interior finished face. Two longitudinal finished edges are preserved, as well as a portion on one lateral finished edge. Fragment B preserves a convex exterior finished face and a concave interior finished face, as well as a portion on one lateral finished edge. The exterior face may preserve paint. Fragment C preserves a convex exterior finished face and a concave interior finished face. On the exterior face appears to be a curving finger impression, approx. 0.00549m thick, which is possibly a spiral. Fragments D preserves one finished face. Fragments E and F each preserve an exterior finished face and an interior finished face. Fragments G - I are amorphous and provide no additional information.",
+        "pred": "Terracotta cover tile composed of multiple fragments, preserving full length and partial width. The exterior face is convex and finished, while the interior face is concave and unfinished. Some edges are reconstructed from ancient breaks.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.3533834586466165,
+        "fuzzy_partial": 0.589041095890411,
+        "semantic_sim": 0.7711,
+        "bleu": 0.0038
+      },
+      {
+        "uuid_hex": "b85edce419a345853cf0fa149e10fedd",
+        "label": "PC 20110063",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Forno fragment preserves portion of the broad, flat rim that makes a rounded edge before continuing down the exterior of the fragment. The rim projects sharply over the interior surface which is slightly more irregular.",
+        "pred": "Forno fragment with heavily worn and pitted surfaces, showing numerous inclusions throughout the fabric. The fragment is irregularly shaped, suggesting it may have been part of a larger structure. The surfaces are encrusted, indicating exposure to high temperatures or prolonged use.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5179282868525896,
+        "fuzzy_partial": 0.47570332480818406,
+        "semantic_sim": 0.6842,
+        "bleu": 0.0135
+      },
+      {
+        "uuid_hex": "2a118c8d8439421ad3a7b5e370a418fc",
+        "label": "94-P-39(226)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Upper segment with deeply molded ridging to filling hole",
+        "pred": "Fragment with deeply ridged lines, likely part of a shoulder or base. Similar to other fragments from Petra Great Temple Excavations.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.3915343915343915,
+        "fuzzy_partial": 0.6363636363636364,
+        "semantic_sim": 0.4087,
+        "bleu": 0.0214
+      },
+      {
+        "uuid_hex": "593dc65a015a40f02af992d95bd1758b",
+        "label": "PC 19720236",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Nearly complete banquet frieze plaque.",
+        "pred": "Fragmentary frieze plaque composed of 13 fragments, missing a piece from the left table and the middle of the right half. The cavetto is chipped. The plaque features a banquet scene with traces of figures and architectural elements. Similar to other Murlo project artifacts, it likely includes elements such as reclining figures, tables, and possibly animals or servants.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.176039119804401,
+        "fuzzy_partial": 0.6031746031746033,
+        "semantic_sim": 0.6613,
+        "bleu": 0.0037
+      },
+      {
+        "uuid_hex": "e32e8a9fb44446769852f81c90f59058",
+        "label": "Item 1280",
+        "item_class": "Object",
+        "project": "The Amulets of the Kerma Culture",
+        "gt": "The leg with the foot is pierced crosswise. No details are represented, including the toes and only the profile of the leg is evident. The surface of the amulet is smooth",
+        "pred": "Necklace composed of carnelian beads of varying sizes and shapes, including spherical and irregular forms. The beads are strung together, likely pierced lengthwise, and exhibit a range of carnelian shades. Similar to other Kerma Culture artifacts, the beads may have irregular surfaces and hole diameters.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.45894736842105266,
+        "fuzzy_partial": 0.47647058823529403,
+        "semantic_sim": 0.3834,
+        "bleu": 0.0069
+      },
+      {
+        "uuid_hex": "18fa6f0f6935431145b6e080d897a176",
+        "label": "PC 20110078",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Curved fragment of a cut-out akroterion preserves a broader, flat, finished front surface and a narrower, more irregular back surface. The edges are slightly beveled.",
+        "pred": "Akroterion fragment with worn and pitted surfaces, numerous inclusions visible throughout the fabric. The back surface is less finished and more irregularly pitted, suggesting it was not intended to be visible. The fragment is likely part of a larger architectural element, possibly decorative in nature.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.48936170212765956,
+        "fuzzy_partial": 0.45783132530120485,
+        "semantic_sim": 0.6698,
+        "bleu": 0.0129
+      },
+      {
+        "uuid_hex": "25fbab6176ed482e81d9d011c8ec0df6",
+        "label": "VdM 19600198",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Fragmented iron fragment in a triangular shape. Appears to be a heavily corroded and broken sword. Context: Based on a description of the tomb\u2019s contents by A. De Agostino (1960: 441) it is possible this comes from Tomb II in Tinoni.",
+        "pred": "A fragment of an iron blade, triangular in shape, with a pointed tip and a rough, corroded surface. The artifact appears to be a tool or weapon, likely used for cutting or piercing. The blade's edges are uneven, indicating wear or damage over time.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4615384615384615,
+        "fuzzy_partial": 0.4721603563474388,
+        "semantic_sim": 0.6877,
+        "bleu": 0.0713
+      },
+      {
+        "uuid_hex": "bca78e319c01415025eda2cac3789b15",
+        "label": "PC 19670261",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "This piece preserves part of the right edge with the upper torso, not including the head, and the arms of the second serving woman.",
+        "pred": "This fragment preserves part of a frieze plaque with worn and broken edges. The surface appears rough and lacks distinct features, possibly due to erosion or damage.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4864864864864865,
+        "fuzzy_partial": 0.5276595744680851,
+        "semantic_sim": 0.3474,
+        "bleu": 0.0427
+      },
+      {
+        "uuid_hex": "88e6fbbadf4f46868bb3bad4a04a4961",
+        "label": "F1780",
+        "item_class": "Feature",
+        "project": "Avkat Archaeological Project",
+        "gt": "A stone block in the garden of house 11. Color is white.",
+        "pred": "Limestone block. Grayish and whiteish. Found near a house with a yellow wall. Partially covered by debris. Similar to other features found in residential areas.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.3703703703703704,
+        "fuzzy_partial": 0.5357142857142857,
+        "semantic_sim": 0.5857,
+        "bleu": 0.01
+      },
+      {
+        "uuid_hex": "5b6a3fcb07c740441485843603f14edf",
+        "label": "PC 20090228",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Squared wing handle fragment preserves a slight upward curve and is incised with a single line approximately 0.005 m away from the edge of the handle. Handle begins to increase in thickness toward its break surface, probably a vessel attachment point.",
+        "pred": "Fragment of a pottery vessel with a black slip on the exterior surface. The fragment is rectangular with a defined edge, suggesting it may be part of a rim or a flat section of the vessel. The surface shows signs of wear and encrustation, consistent with other artifacts from the Murlo project.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.47706422018348627,
+        "fuzzy_partial": 0.45322245322245325,
+        "semantic_sim": 0.3383,
+        "bleu": 0.0153
+      },
+      {
+        "uuid_hex": "84e1615e0f564a22ba58796f27808538",
+        "label": "PC 20120109",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Frieze plaque fragment preserves two dentils and a small raised area below, though it is impossible to tell which type of frieze plaque.",
+        "pred": "Frieze plaque fragment with heavily worn and pitted surfaces, preserving no discernible decorative elements. The fragment is encrusted, with visible inclusions throughout the fabric, suggesting significant weathering and age.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5152354570637119,
+        "fuzzy_partial": 0.5210084033613445,
+        "semantic_sim": 0.7762,
+        "bleu": 0.0364
+      },
+      {
+        "uuid_hex": "c061b3de7784488fa58b1d9df96b0fb7",
+        "label": "F1591",
+        "item_class": "Feature",
+        "project": "Avkat Archaeological Project",
+        "gt": "Ashlar limestone, some-what smooth and is fragmented and shape as a result appears to be a broken heart. Colour is grey, yellow and white flecks. House No. 91. Diameter is 0.48m",
+        "pred": "A pile of wooden sticks and a limestone block in a farmyard setting. The block is grayish and appears worn. Found among other farm equipment and debris.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5167173252279635,
+        "fuzzy_partial": 0.43986254295532645,
+        "semantic_sim": 0.3594,
+        "bleu": 0.0098
+      },
+      {
+        "uuid_hex": "a2cd7fefa8594d57a24a98cb40f754ec",
+        "label": "F1676",
+        "item_class": "Feature",
+        "project": "Avkat Archaeological Project",
+        "gt": "One block stone in the garden wall of house 40. Color is white and gray.",
+        "pred": "Two limestone blocks, grayish in color, embedded into a ruined wall near an abandoned building. Damaged and broken. Located on a dirt path leading to a structure with visible wear and erosion.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4015151515151515,
+        "fuzzy_partial": 0.45833333333333337,
+        "semantic_sim": 0.5591,
+        "bleu": 0.0077
+      },
+      {
+        "uuid_hex": "6917438a155f4c44f35a6c4a45765d08",
+        "label": "PC 19680677",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Fragment of guilloche with a large part of the tile preserved (0.140 m).",
+        "pred": "Fragment of raking sima preserving part of the guilloche pattern. Lower right edge is preserved, with breaks at the top and diagonally on the left side.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5,
+        "fuzzy_partial": 0.5942028985507246,
+        "semantic_sim": 0.593,
+        "bleu": 0.0492
+      },
+      {
+        "uuid_hex": "e86c6b8559984e67c720eb712bcc9d0d",
+        "label": "4-S-1(1665)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Eyes (socket for pupil) for statuary. Broken on one edge.",
+        "pred": "Elliptical eye socket from a statue, possibly an animal or human figure, made of limestone. Similar to other artifacts from the Petra Great Temple Excavations.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.32407407407407407,
+        "fuzzy_partial": 0.5087719298245614,
+        "semantic_sim": 0.5684,
+        "bleu": 0
+      },
+      {
+        "uuid_hex": "78a1efa960c94485f4f0b53a4f32bcaa",
+        "label": "PC 19850068",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Orangeware finial is composed of two superimposed roundels.",
+        "pred": "A complete pottery vessel with a rounded base. The surface appears worn with some discoloration. The vessel is intact, suggesting it was used for storage or transport. The label 'PC 19850068' is marked on the surface.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.3188405797101449,
+        "fuzzy_partial": 0.423728813559322,
+        "semantic_sim": 0.3751,
+        "bleu": 0.0052
+      },
+      {
+        "uuid_hex": "c8228e77ad19492b07c8b0f99987b3ac",
+        "label": "2-S-1(1082)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Partial facial fragment with an eye on either side of the face and curling hair on the top of the head. On the lower part of the face there appear to be whiskers or feathers. The frontal area of the face has been damaged. The style is Hellenistic and could be Nabataean. The back of the head is rough and flattened, suggesting it was placed against a wall.",
+        "pred": "Limestone fragment with rough surface, possibly part of a larger architectural or sculptural element. No discernible features or decorations visible.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.3722772277227723,
+        "fuzzy_partial": 0.44966442953020136,
+        "semantic_sim": 0.4129,
+        "bleu": 0.003
+      },
+      {
+        "uuid_hex": "a962f65450f14e38a3ca2adcecc329df",
+        "label": "DT# 5220",
+        "item_class": "Coin",
+        "project": "Domuztepe Excavations",
+        "gt": "Constantius II OBV: CONSTAN-TIVS AVG pearl diadem head right REV: REV: GLOR-IA EXERC-ITVS, two soldiers holding spears and shields on either side of standard, dot on either side of standard",
+        "pred": "Unknown OBV: [-----] head or bust right REV: GLOR-IA EXERC-ITVS, two soldiers holding spears and shields on either side of standard",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.70625,
+        "fuzzy_partial": 0.8091603053435115,
+        "semantic_sim": 0.7621,
+        "bleu": 0.4455
+      },
+      {
+        "uuid_hex": "11e770cd99884a157204f21767ea6cc0",
+        "label": "PC 19790086",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Frieze fragment preserves guilloche pattern and hind leg and tail of second horse. The hoof has been worn off.",
+        "pred": "Fragment of frieze plaque preserves a section of guilloche pattern along the finished edge.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5771144278606966,
+        "fuzzy_partial": 0.653061224489796,
+        "semantic_sim": 0.5757,
+        "bleu": 0.0289
+      },
+      {
+        "uuid_hex": "1c290536094d4c2c83b6f801849f4aa1",
+        "label": "PC 19870136",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "The fragment is roughly triangular in shape and slightly curved in section. The body is pierced by a series of small holes of irregular dimensions. Four complete ones are preserved toward the middle of the fragment while a portion of four others may be seen along the edge.",
+        "pred": "Fragment of a fenestrated vessel with four complete circular fenestrations. The surfaces are worn, and the fragment is broken on all three sides, indicating it was pierced from the outside.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5324675324675325,
+        "fuzzy_partial": 0.5013927576601671,
+        "semantic_sim": 0.6527,
+        "bleu": 0.0271
+      },
+      {
+        "uuid_hex": "0b5adad8d6184cd9b6141023662e4463",
+        "label": "VdM20155043",
+        "item_class": "Pottery",
+        "project": "Murlo",
+        "gt": "Greek black slip fragment preserves black slip on one side and the pinkish orange fabric on the other side. The black slip completely covers one side. The side with no slip ahs two small indentations in the fabric.",
+        "pred": "Black gloss pottery fragment with a triangular shape, preserving black gloss on one side. The opposite side is undecorated. The fragment is flat with lightly scratched surfaces and worn edges, indicating wear over time.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5404157043879907,
+        "fuzzy_partial": 0.49763033175355453,
+        "semantic_sim": 0.4514,
+        "bleu": 0.0369
+      },
+      {
+        "uuid_hex": "6ab96709a60e49945554a45f89dfdf83",
+        "label": "94-S-1(395)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Head fragment of yellow limestone with open mouth and most of open eye, beginning of hair",
+        "pred": "Limestone fragment of a head, showing part of the cheek and jaw, with a smooth surface and no visible facial features preserved.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4423963133640553,
+        "fuzzy_partial": 0.4943820224719101,
+        "semantic_sim": 0.7293,
+        "bleu": 0.0242
+      },
+      {
+        "uuid_hex": "e9eb814ebcfa4a2af17039aeb0238850",
+        "label": "5-S-1(1753)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Small horned altar consisted of a limestone rectangular block with two cross cuts on the upper surface, resulting in four small channels. The stone is smooth apart from a little damage on the base and a small dent on the upper surface.",
+        "pred": "Rectangular limestone fragment with two parallel grooves on the surface, possibly part of a larger decorative element.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4419263456090652,
+        "fuzzy_partial": 0.5169491525423728,
+        "semantic_sim": 0.4943,
+        "bleu": 0.0107
+      },
+      {
+        "uuid_hex": "79150097c8ba4c1cb91c6e226fb52d4d",
+        "label": "Record 934",
+        "item_class": "Pottery",
+        "project": "Differentiating local from nonlocal ceramic production at Iron Age Sardis using NAA",
+        "gt": "Cup - gray - study sample?",
+        "pred": "Lydion - black slip, faceted",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.33333333333333337,
+        "fuzzy_partial": 0.375,
+        "semantic_sim": 0.1681,
+        "bleu": 0.044
+      },
+      {
+        "uuid_hex": "89c33ea124fb423bb243d971a3594896",
+        "label": "PC 19680154",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Preserves three-stranded hair from lower right of antefix. A small part of the antefix back is preserved.",
+        "pred": "Fragment of an antefix, broken on three sides. Preserves a worn surface with no discernible features.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5339805825242718,
+        "fuzzy_partial": 0.4484848484848485,
+        "semantic_sim": 0.5302,
+        "bleu": 0.0152
+      },
+      {
+        "uuid_hex": "d891f2b8cbf54191994d8f94a8abc33f",
+        "label": "PC 19680287",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "Perhaps a rear corner of the back extension of a sima. The side has a raised edge which appears nearly rectangular in cross-section (the inside corner is slightly curved). This edge widens toward the back: marks made in smoothing the raised edges can be seen in the surface of the base. The back raised edge is flat on top and has an overhanging lip which projects over the base. Near the break, the lower part of this edge becomes narrower. At the break, the edge thickens and ends in an irregular surface which may be original. There is a semicircular notch (0.050 m across) in the back raised edge 0.034 m from the corner: perhaps a cover tile would have fitted into it. There are extensive traces of red paint on the base, the inside and outside surfaces of the raised edges (more remains on the back than on the side) and the bottom. The chipped areas on the outside surface of the corner also have traces of red paint.",
+        "pred": "Terracotta fragment with a chipped and grooved outer surface. The piece is worn on the bottom and has an irregular shape, possibly part of a lateral sima. The fragment shows signs of ancient breaks along its edges.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.2987697715289982,
+        "fuzzy_partial": 0.49065420560747663,
+        "semantic_sim": 0.488,
+        "bleu": 0.0014
+      },
+      {
+        "uuid_hex": "85c879ba9ab34a0a8136e7c53dc7e9d7",
+        "label": "PC 19840015",
+        "item_class": "Object",
+        "project": "Murlo",
+        "gt": "Antler fragment shows signs of having been worked. The narrow end is cut evenly. There is a small cut mark parallel to and near the cut end. At one place the natural curve of the antler has been shaved flat.",
+        "pred": "Rocchetto fragment with two convex heads, one of which is broken. The surface shows signs of wear and two incised lines are visible on the shaft.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5170454545454546,
+        "fuzzy_partial": 0.47142857142857136,
+        "semantic_sim": 0.351,
+        "bleu": 0.0284
+      },
+      {
+        "uuid_hex": "9404aa385f5843fb898e08d2d7445f5c",
+        "label": "1-B-16(927)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Intricately carved pin crown, perforated from top to bottom, with a side hole that could be accidental.",
+        "pred": "Bone object with a pointed, quadrilateral head and triple grooves below the head, similar to other artifacts from the Petra Great Temple Excavations.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.4682539682539682,
+        "fuzzy_partial": 0.4563106796116505,
+        "semantic_sim": 0.4567,
+        "bleu": 0.0208
+      },
+      {
+        "uuid_hex": "e8f3554c61074b3abe71c434f7f6905a",
+        "label": "PC 20190022",
+        "item_class": "Architectural Element",
+        "project": "Murlo",
+        "gt": "A molded terra cotta feline head fragment preserving a decorated finished face, undecorated unfinished face, and several finished edges. On the decorated, finished face, the edge of the top of the head curves gently into two triangular ears. The feline's left ear projects from curve 0.01928m horizontally while the feline's right ear projects vertically 0.02183m. From the top of the head the fragment increases in thickness in profile, being somewhat convex between the ears and the eyebrows. In the middle of the face are two ovoid eyes (max. pres. height: 0.01282m; max. pres. width: 0.01726m) with brow (max. pres. width: 002091m) projecting above them. The brows curve towards one another and the center of the fragment to become the nose which has three convex ridges separated by a thin indented line before the snout. The nose is max. pres. height of 0.06100m, max. pres. width of 0.02496m, and min. pres. width of 0.01648m. The narrowest nose ridge is max. pres. height of 0.00781m and max. pres. width of 0.01733m. The second largest nose ridge is max. pres. height of 0.00882m and max. pres. width of 0.01919m. The largest nose ridge is max. pres. height of 0.01236m and max. pres. width of 0.02182m. The snout is max. pres. height of 0.01742m and max. pres. width of 0.02505m. The nose is raised in profile above the cheeks which slope gently from the nose and eyes towards the side and bottom edges of the fragment. The bottom edges are somewhat curving inward concavely towards the cheeks. No clear evidence for the articulation of a mouth or jaws. On the undecorated, unfinished face at the opposite of the crown of the head is a roughly linear raised portion, max. pres. height of 0.03199m and max. pres. length of 0.09786m (the max. pres. thickness of the fragment is the thickness of the raised portion), which shows signs of having been hand-worked as well as of a possible attachment scar. The rest of the unfinished face is relatively flat, with a max. pres. thickness of 0.02713m.",
+        "pred": "Terracotta feline head fragment, likely part of a lateral sima waterspout, preserving the top of the head and nose. The surface is worn and pitted, with a modern break along one edge. Similar to other Murlo project artifacts, it may have served as an architectural element with attachment scars for fangs and sima.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.2227017695295641,
+        "fuzzy_partial": 0.47916666666666663,
+        "semantic_sim": 0.6718,
+        "bleu": 0.0005
+      },
+      {
+        "uuid_hex": "99d0f2e72c444fddc1a1cb929d0ff4b1",
+        "label": "94-P-26(206)",
+        "item_class": "Object",
+        "project": "Petra Great Temple Excavations",
+        "gt": "Upper lamp segment with sunray rim edging and floral decoration with double volutes on nozzle and concentric ridges around small convex filling hole. Buff colored clay with black slip",
+        "pred": "Upper segment with deeply molded ridging to filling hole, resembling sunray design. Partial volute present. Similar to other fragments with rosettes and volutes from the Petra Great Temple Excavations.",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.48958333333333337,
+        "fuzzy_partial": 0.47239263803680986,
+        "semantic_sim": 0.5735,
+        "bleu": 0.0194
+      },
+      {
+        "uuid_hex": "5045f55b816b4dc5ac77b2bf7d97a09f",
+        "label": "Sherd F-4-4023-4233-3",
+        "item_class": "Pottery",
+        "project": "Kenan Tepe",
+        "gt": "triangle incised on shoulder Chalco looking ware",
+        "pred": "incised lines painted in red",
+        "top3": [],
+        "exact_match": false,
+        "fuzzy_token_sort": 0.5263157894736843,
+        "fuzzy_partial": 0.5,
+        "semantic_sim": 0.3214,
+        "bleu": 0.036
+      }
+    ]
+  }
+}

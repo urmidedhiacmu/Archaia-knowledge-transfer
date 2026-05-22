@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=archaia_index
+#SBATCH --output=/home/udedhia/archaia_project/archaia_impute/logs/index_%j.out
+#SBATCH --error=/home/udedhia/archaia_project/archaia_impute/logs/index_%j.err
+#SBATCH --partition=general
+#SBATCH --cpus-per-task=8
+#SBATCH --qos=normal
+#SBATCH --gres=gpu:1
+#SBATCH --mem=64G
+#SBATCH --time=06:00:00
+
+source /home/udedhia/archaia_env/bin/activate
+pip install faiss-cpu sentence-transformers torch torchvision transformers -q
+cd /home/udedhia/archaia_project
+python3 -u archaia_impute/01_index/encode.py
