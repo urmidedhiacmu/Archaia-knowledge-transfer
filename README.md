@@ -48,15 +48,3 @@ All compute runs on **Babel** (CMU HPC). Some scripts also reference the
 **Schmidt Sciences** cluster. See `SETUP.md` for environment setup and
 `docs/KEY_PATHS.md` for all important file paths.
 
----
-
-## Key people
-
-| Name | Role |
-|---|---|
-| Prof. Daphne Ippolito | PI, CMU LTI |
-| Eric Kansa | OpenContext founder, external collaborator |
-| Morris Alper | Team member |
-| Mohith Rajesh | Team member |
-| Eitan, Nicolas, Abdul | Team members |
-| Shai Gordin | External advisor |
